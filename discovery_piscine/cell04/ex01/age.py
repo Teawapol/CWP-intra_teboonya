@@ -1,0 +1,8 @@
+age = int(input("Please tell me your age: "))
+
+print("You are currently", age, "years old.")
+print("In 10 years, you'll be", age + 10, "years old.")
+print("In 20 years, you'll be", age + 20, "years old.")
+print("In 30 years, you'll be", age + 30, "years old.")
+
+#input() รับค่ามาเป็น string จึงใช้ int() แปลงให้เป็น ตัวเลขจำนวนเต็ม ก่อน เพื่อให้เอาไป + 10, + 20, + 30

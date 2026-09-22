@@ -1,0 +1,11 @@
+original = [2, 8, 9, 48, 8, 22, -12, 2]
+new_array = []
+
+for number in original:
+    if number > 5:
+        new_array.append(number + 2)
+
+print(original)
+print(new_array)
+
+# เอาโปรแกรมข้อก่อนหน้ามาแก้ครับ โดย เลือกเฉพาะค่าที่มากกว่า 5 แล้วค่อย + 2 ใส่ใน array ใหม่
